@@ -1,4 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+interface RepositoryLanguageProps {
+  language?: string;
+}
 
 export const Container = styled.main`
   max-width: 1250px;
@@ -27,7 +31,7 @@ export const RepositoryBox = styled.div`
   gap: 1rem;
   justify-content: space-between;
 
-  p{
+  p {
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -42,10 +46,22 @@ export const RepositoryBox = styled.div`
     }
   }
 
-  div:last-child{
+  div:last-child {
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 0.5rem;
   }
+`;
+
+export const RepositoryLanguageColor = styled.div<RepositoryLanguageProps>`
+  ${(props) =>
+    props.language === "TypeScript"
+      ? css`
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background-color: #0284c7;
+        `
+      : null}
 `;
