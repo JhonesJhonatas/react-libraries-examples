@@ -5,14 +5,14 @@ import { RepositorysArea } from "./styles";
 export function SkeletonLoading() {
   return (
     <RepositorysArea>
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
-      <Skeleton height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
+      <Skeleton baseColor="#0f172a" highlightColor="#1e293b" height={224} width={288} />
     </RepositorysArea>
   );
 }
