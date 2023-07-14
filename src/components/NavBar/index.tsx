@@ -20,6 +20,10 @@ export function NavBar() {
           <ArrowBendDownRight />
           <span>React Router DOM</span>
         </NavLink>
+        <NavLink to={"/react-hook-form"}>
+          <ArrowBendDownRight />
+          <span>React Hook Form</span>
+        </NavLink>
         <NavLink to={"/phosphor-icons"}>
           <ArrowBendDownRight />
           <span>PhosphorIcons</span>

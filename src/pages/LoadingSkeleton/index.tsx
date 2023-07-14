@@ -17,7 +17,7 @@ export function LoadingSkeleton() {
 
   return (
     <Container>
-      <h1>Explore Seus Repositórios</h1>
+      <h1>Loading Skeleton</h1>
 
       <RepositorysArea>
         {loading === true ? (

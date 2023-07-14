@@ -5,7 +5,6 @@ interface RepositoryLanguageProps {
 }
 
 export const Container = styled.main`
-  max-width: 1250px;
   margin: 0 auto 0;
 `;
 
@@ -19,7 +18,7 @@ export const RepositorysArea = styled.section`
 `;
 
 export const RepositoryBox = styled.div`
-  width: 18rem;
+  width: 20rem;
   height: 14rem;
   padding: 0.75rem;
   background-color: ${(props) => props.theme["--gray-800"]};

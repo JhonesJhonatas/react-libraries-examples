@@ -6,4 +6,5 @@ export const Container = styled.div`
   margin: 3rem auto 0;
   padding: 0 2rem;
   width: 1800px;
+  gap: 4rem;
 `
