@@ -1,10 +1,17 @@
+import { GithubLogo } from "@phosphor-icons/react";
 import { HomeContainer } from "./styles";
 
 export function Home() {
   return (
     <HomeContainer>
-      <h1>Olá 👋,</h1>
-      <h3>Este projeto é um acervo de implementações de bibliotecas.</h3>
+      <div>
+        <h1>Olá 👋,</h1>
+        <h3>Este projeto é um acervo de implementações de bibliotecas.</h3>
+        <a href="https://github.com/JhonesJhonatas/react-libraries-examples" target="_blank">
+          <GithubLogo />
+          <span>Repósitório no GitHub</span>
+        </a>
+      </div>
 
       <p>
         Geralmente, quando tenho que testar o uso de alguma biblioteca,
