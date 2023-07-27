@@ -17,6 +17,9 @@ export const ExampleContainer = styled.section`
 
   div {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     
     form {
       margin-top: 1rem;
@@ -38,7 +41,7 @@ export const ExampleContainer = styled.section`
         border-radius: 6px;
         background-color: ${props => props.theme['--indigo-600']};
         cursor: pointer;
-        transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out  ;
 
         &:hover{
           background-color: ${props => props.theme['--indigo-500']};
