@@ -26,6 +26,7 @@ export function ReactHookForm() {
 
   const formSubmit: SubmitHandler<DataSchema> = (data) => {
     setDataForm(data);
+    return;
   };
 
   return (
