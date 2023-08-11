@@ -24,18 +24,6 @@ export function NavBar() {
           <ArrowBendDownRight />
           <span>React Hook Form</span>
         </NavLink>
-        <NavLink to={"/phosphor-icons"}>
-          <ArrowBendDownRight />
-          <span>PhosphorIcons</span>
-        </NavLink>
-        <NavLink to={"/axios"}>
-          <ArrowBendDownRight />
-          <span>Axios</span>
-        </NavLink>
-        <NavLink to={"/context-api"}>
-          <ArrowBendDownRight />
-          <span>ContextApi</span>
-        </NavLink>
         <NavLink to={"/loading-skeleton"}>
           <ArrowBendDownRight />
           <span>Loading Skeleton</span>
